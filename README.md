@@ -3,7 +3,7 @@
 
 **Architecture**
 
-Situation : Deployed a Three tier reactJs app woth nodeJS backend and MongoDB database to be able to handle thousands of concurrent users.
+Situation : Deployed a Three tier reactJs app with nodeJS backend and MongoDB database to be able to handle thousands of concurrent users.
 
 Task : Dockerized the application along with eksctl cluster setup for kubernetes deployment and later deploymented on AWS EKS.Also deployment of application load balancer for user access and ingress controller for internal routing. Using Route53 for accessing webapp using domai nname (harshilrpatel.com). 
 
